@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 90%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.flex-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+header a {
+  text-decoration: none;
+  color: #000;
+}
+body {
+  background-color: #eeeff1;
+  margin: 0;
+  padding: 0;
+}
+.w-50 {
+  width: 45%;
+}
+section {
+  padding: 50px 0;
+}
+.main-btn {
+  background-color: #34547a;
+  padding: 10px 20px;
+  border: none;
+}
+.main-btn a {
+  color: #fff;
+  text-decoration: none;
+}
+.about-me {
+  text-align: center;
+  background-color: #fff;
+}
+.bg-main {
+  background-color: #34547a;
+  color: #fff;
+}
+.project-box {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.line {
+  width: 100%;
+  background-color: #c4c4c4;
+  height: 4px;
+  border-radius: 4px;
+}
+.line .percent {
+  background-color: #34547a;
+  border-radius: 4px;
+  height: 100%;
+  width: 80%;
+}
+.skills {
+  background-color: #fff;
+}
+.rasimlar .flex-box{
+  flex-wrap: wrap;
+}
+.mycrasfor{
+  gap: 30px;
+}
+.abduazim{
+  width: 540px;
+  margin: 0 auto;
+}
+input{
+  padding: 18px 0 18px 20px;
+}
+.abdurasulov{
+  gap: 30px;
+}
+ .abdurasulov .main-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-btn{
+  margin: 10px auto;
+}
